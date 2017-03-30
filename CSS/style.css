@@ -1,0 +1,132 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, main, menu, nav, section {
+	display: block;
+}
+html {
+	line-height: 1;
+}
+body {
+  line-height: inherit;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*--------End Reset-----------*/
+
+
+html{
+	background: url("../images/supernova.jpg") no-repeat center center fixed;
+	background-size: cover;
+	font-family: 'halvetica neue', arial, sans-serif;
+}
+
+.container{
+	margin-left: 10%;
+	margin-right: 10%;
+	overflow: auto;
+}
+
+.planets {
+	border: 1px solid mintcream;
+}
+
+tr:nth-child(even){
+    background-color: darkseagreen;
+}
+
+tr:nth-child(odd){
+    background-color: darkcyan;
+}
+
+caption{
+	color: blanchedalmond;
+	text-align: center;
+	font-family: 'castellar';
+	font-size: 3.5em;
+	padding-top: 15%;
+}
+
+th{
+	text-align: center;
+	vertical-align:middle;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-family: 'maiandra gd';
+	font-size: 1.25em;
+	font-weight: bold;
+	padding: 5px;
+	background: darkorange;
+	max-width: 100px;
+}
+
+td{
+	font-family: 'trajan pro';
+	text-align: center;
+	vertical-align: middle;
+	padding: 0;
+	display: table-cell;
+}
+
+sup{
+	font-size: 70%;
+	position: relative;
+	top: 0;
+}
+
+img{
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.planetimg{
+	width: 100px;
+	height:auto;
+}
+
+footer {
+	text-align: center;
+	margin-top: 10%;
+	font-size: .75em;
+	color: Azure;
+	font-style: italic;
+}
